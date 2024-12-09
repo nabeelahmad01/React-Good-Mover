@@ -1,0 +1,189 @@
+.footer_widget .search_company h5,
+.footer_widget h4 {
+    font-family: "Plus Jakarta Sans", serif;
+    text-transform: capitalize;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.footer_widget {
+    padding: 40px 0;
+}
+
+.footer_widget h4 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #2b2f32;
+}
+
+.footer_logo {
+    width: 150px;
+    height: auto;
+    object-fit: contain;
+}
+
+.row.pt-2.pb-2.new {
+    background: #e2edf6;
+    border-radius: 20px;
+    bottom: 10px;
+    /* top: 20px; */
+    position: relative;
+    padding: 0px 20px;
+}
+
+.footer_widget .social h4 {
+    font-size: 22px;
+}
+
+.footer_widget .social_links {
+    margin: 10px 0 0;
+}
+
+.footer_widget .social_links a {
+    padding: 0 8px 0 0;
+}
+
+.footer_widget .social_links a i {
+    font-size: 18px;
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 0px solid;
+    border-radius: 50%;
+    padding: 0px;
+    color: rgb(30 117 187);
+    transition: 0.3s linear;
+}
+
+.footer_widget .social_links a i:hover {
+    background-color: #2b2f32;
+    color: #fff;
+    border: none;
+}
+
+.footer_widget .pages_link li {
+    padding: 1px 0;
+}
+
+.footer_widget .pages_link a {
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 400;
+    color: #2b2f32;
+    font-size: 16px;
+}
+
+.footer_widget .links li {
+    padding: 8px 0 0;
+}
+
+.footer_widget .links li a {
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 500;
+    color: #2b2f32;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.footer_widget .search_company h5 {
+    font-size: 26px;
+    color: #2b2f32;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.footer_widget .search_company .input-group {
+    box-shadow: rgb(30 117 187 / 44%) 0 1px 4px;
+    border-radius: 4px;
+}
+
+.footer_widget .search_company input {
+    height: 46px;
+    border: none;
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 400;
+}
+
+.company_email h6,
+.footer_widget .social h6 {
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: "Plus Jakarta Sans", serif;
+
+}
+
+.footer_widget .search_company input::placeholder {
+    text-transform: capitalize;
+    font-family: "Plus Jakarta Sans", serif;
+    letter-spacing: 1px;
+}
+
+.footer_widget .search_company input:focus {
+    box-shadow: none;
+}
+
+.footer_widget .social h6 {
+    font-size: 24px;
+    margin-bottom: 0;
+    color: #2b2f32;
+}
+
+.company_email h6 {
+    font-size: 26px;
+}
+
+.company_email a {
+    color: #2b2f32;
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.resources_link a,
+footer {
+    font-family: "Plus Jakarta Sans", serif;
+    color: #2b2f32;
+}
+
+.resources_link a {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.resources_link a:hover,
+footer a,
+footer a:hover {
+    color: #2b2f32;
+}
+
+footer {
+    padding: 10px 0 0;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 767px) {
+    footer {
+        padding-bottom: 4rem;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    footer {
+        font-size: 14px;
+    }
+
+    .footer_logo {
+        width: 150px;
+        height: auto;
+    }
+
+    .footer_row {
+        padding-left: 0;
+    }
+}

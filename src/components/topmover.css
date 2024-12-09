@@ -1,0 +1,395 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Albert Sans", sans-serif !important;
+    font-weight: 700 !important;
+    margin-top: 0px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h5 {
+    font-size: 1.25rem !important;
+}
+
+p {
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    font-weight: 500;
+}
+
+hr {
+    color: inherit;
+    border: 0;
+    border-top: 1px solid;
+    opacity: 0.2;
+    width: 42%;
+    margin: 1.7rem auto;
+    outline-style: dashed;
+    outline-color: var(--bs-blue);
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    font-family: "Font Awesome 6 Free";
+    content: "\f105";
+    font-weight: 900;
+}
+
+.breadcrumb li a {
+    text-decoration: none;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    text-transform: capitalize;
+    color: #2b2f32;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+.breadcrumb .breadcrumb-item.active {
+    font-family: "Albert Sans", sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #2b2f32;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: #2b2f32;
+}
+
+.row_modal-1 {
+    background: rgb(30 117 187 / 85%) !important;
+    border-radius: 10px !important;
+    border: 1px solid rgb(30 117 187) !important;
+    padding: 0.7rem !important;
+    margin-top: 10px !important;
+}
+
+.row_modal-1 h3 {
+    font-family: "Albert Sans", sans-serif;
+    color: #fff;
+    font-size: 26px !important;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    text-decoration: underline;
+}
+
+.row_modal-1 small {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #fff !important;
+}
+
+.row_modal-1 label {
+    font-family: "Albert Sans", sans-serif !important;
+    font-weight: 400 !important;
+    color: #fff !important;
+    margin-bottom: 2px !important;
+    font-size: 14.7px !important;
+}
+
+.row_modal input {
+    font-weight: 400;
+    background-color: #fff;
+    font-family: "Albert Sans", sans-serif;
+    font-size: 14.5px;
+}
+
+.row_modal input:focus {
+    box-shadow: none;
+    background-color: var(--four-color);
+}
+
+.row_modal input::placeholder {
+    text-transform: capitalize;
+    color: var(--third-color);
+    font-weight: 400;
+}
+
+.row_modal .input-group span {
+    background-color: var(--four-color);
+}
+
+.row_modal .input-group span i {
+    color: var(--dark-blue);
+    font-size: 16px;
+}
+
+.row_modal button {
+    text-align: center;
+    transition: 0.5s;
+    border-radius: 7px;
+    border: 2px solid #fff;
+    padding: 6px 30px;
+    font-size: 16px;
+    font-family: "Albert Sans", sans-serif;
+    letter-spacing: 0.2px;
+    margin-top: 2px;
+    background-color: #2b2f32;
+    color: #fff;
+}
+
+label.discount {
+    text-decoration: underline;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.quote_section i {
+    color: rgb(30 117 187);
+}
+
+.trust_guard_img {
+    width: 46px;
+    object-fit: contain;
+}
+
+.more_content {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.6s linear;
+}
+
+.more_content.show {
+    max-height: 100%;
+    overflow: visible;
+}
+
+#topReadMore {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    top: 11px;
+    cursor: pointer;
+}
+
+#topReadMore::before {
+    content: "";
+    background: linear-gradient(rgba(255, 255, 255, 0), #fff);
+    position: absolute;
+    top: -35px;
+    left: 0;
+    width: 100%;
+    height: 120%;
+}
+
+.company_cards .card {
+    padding: 26px 15px;
+    border: 0;
+    border-radius: 12px;
+    border: 2px solid rgb(95 163 219 / 40%);
+    height: 100%;
+}
+
+.company_cards .card .verify_img span {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+    color: rgb(30 117 187);
+    font-size: 15px;
+}
+
+.company_cards .card .trusted_mover_batch {
+    right: 18px;
+}
+
+.company_cards .card .company_card_logo img {
+    width: 120px;
+    object-fit: contain;
+}
+
+.company_cards .card .company_info::before {
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 0;
+    background-color: rgb(30 117 187);
+    width: 1px;
+    height: 100%;
+}
+
+.company_cards .card .company_info ul li {
+    padding-right: 6px;
+}
+
+.company_cards .card .company_info ul li i {
+    color: var(--stars-color);
+}
+
+.company_cards .card .company_info .total_reviews {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 600;
+    color: #2b2f32;
+}
+
+.find_top_movers {
+    background-color: rgb(30 117 187 / 5%);
+    border-radius: 20px;
+}
+
+.company_quote {
+    border: 2px solid rgb(30 117 187 / 27%);
+    padding: 30px 20px;
+    border-radius: 16px;
+    box-shadow: rgb(30 117 187 / 30%) 0 6px 12px 0;
+}
+
+.quote_section {
+    padding-block: 20px;
+}
+
+.company_quote p {
+    font-weight: 700;
+    font-size: 20px;
+    font-family: "Albert Sans", sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.company_description img {
+    width: 20%;
+    object-fit: contain;
+}
+
+#arrowIcon {
+    color: #2b2f32;
+}
+
+.company_description img[alt="broker_certified_logo"] {
+    width: 20%;
+}
+
+.accordion .accordion-item {
+    transition: all 0.3s ease-in-out;
+    border: 0;
+}
+
+.accordion .accordion-item h4 {
+    margin: 0;
+}
+
+.accordion .accordion-header button {
+    background-color: transparent;
+    color: #2b2f32;
+    font-family: "Albert Sans", sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 18px;
+    padding-left: 40px;
+    padding-block: 20px;
+    border-radius: 0 !important;
+    border: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.accordion .accordion-header button:focus {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.accordion .accordion-header button:hover {
+    background-color: transparent;
+}
+
+.accordion .accordion-button::after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'><path%20fill-rule='evenodd'%20d='M1.646%204.646a.5.5%200%200%201%20.708%200L8%2010.293l5.646-5.647a.5.5%200%200%201%20.708.708l-6%206a.5.5%200%200%201-.708%200l-6-6a.5.5%200%200%201%200-.708z'/></svg>");
+    position: absolute;
+    left: 10px;
+}
+
+.accordion .accordion-header:hover .collapse:not(.show) {
+    display: block;
+}
+
+.accordion .accordion-body {
+    background-color: rgb(30 117 187 / 8%);
+    border-radius: 0 0 20px 20px;
+    padding: 20px 20px;
+}
+
+.accordion .accordion-body p {
+    font-size: 18px;
+}
+
+.accordion .accordion-body a {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 600;
+    color: rgb(30 117 187);
+    text-decoration: 2px underline rgb(30 117 187 / 50%);
+    text-underline-offset: 4px;
+}
+
+.state_list li {
+    padding-block: 4px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    .company_quote p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .company_cards .card .company_info::before {
+        width: 0;
+        height: 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    h1 {
+        font-size: 26px;
+    }
+
+    .company_description img[alt="broker_certified_logo"] {
+        width: 27%;
+    }
+
+    .company_description img {
+        width: 30%;
+        margin-bottom: 10px;
+    }
+
+    .accordion .accordion-item h4 {
+        font-size: 16px !important;
+    }
+
+    #faqAccordion .accordion-item h5 {
+        font-size: 16px;
+    }
+
+    .accordion .accordion-body p {
+        font-size: 16px;
+    }
+
+    .company_quote p {
+        font-size: 18px;
+    }
+
+    .trust_guard_img {
+        width: 26px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    h1 {
+        font-size: 22px;
+    }
+}
+
+.process {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 500;
+}

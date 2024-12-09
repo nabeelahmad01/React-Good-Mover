@@ -1,0 +1,685 @@
+a {
+    text-decoration: none;
+}
+
+header .offcanvas ul li a {
+    font-family: "Be Vietnam Pro", serif;
+    font-weight: 500;
+}
+
+.header_form label,
+.sub_top_header a {
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+header.sticky_header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffff;
+    z-index: 20;
+    border-bottom: 1px solid;
+    animation: 0.5s forwards sticky_animate;
+}
+
+.header_form form,
+.movers_menu,
+.user_dashboard_menu {
+    position: relative;
+}
+
+.sub_header_none {
+    display: none !important;
+}
+
+.sub_header_show {
+    display: block !important;
+}
+
+@keyframes sticky_animate {
+    0% {
+        transform: translateY(-140px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+ul li {
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    font-weight: 400;
+    color: #2b2f32 !important;
+    line-height: 34px;
+}
+
+#anchor_searchbar i {
+    color: rgb(30 117 187);
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.company_header_watermark {
+    width: 20px;
+    object-fit: contain;
+}
+
+.header_search_bar {
+    display: none;
+}
+
+:is(.header_search_bar, .offcanvas_search_bar) input {
+    border: 1px solid rgb(30 117 187);
+    font-family: "Plus Jakarta Sans", serif;
+    border-radius: 30px;
+    height: 34px;
+    width: 100%;
+    border-right: none;
+}
+
+:is(.header_search_bar, .offcanvas_search_bar) input::-webkit-search-cancel-button {
+    display: none;
+}
+
+:is(.header_search_bar, .offcanvas_search_bar) input:focus {
+    box-shadow: none;
+    border: 1px solid #2b2f32;
+    border-right: none;
+}
+
+:is(.header_search_bar, .offcanvas_search_bar) input::placeholder {
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.sub_top_header {
+    background-color: rgb(30 117 187);
+}
+
+.sub_top_header span {
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 500;
+    color: #ffff;
+    font-size: 14px;
+}
+
+.sub_top_header a {
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 500;
+}
+
+.sub_top_header button:focus,
+.sub_top_header button:hover,
+.user_dashboard:hover {
+    background-color: #2b2f32;
+}
+
+.user_dashboard,
+header .offcanvas .add_list_btn {
+    background-color: rgb(30 117 187);
+    color: #fff;
+}
+
+.offcanvas_search_bar input {
+    width: 100%;
+}
+
+header .navbar .collapse ul {
+    padding: 0;
+    margin: 0;
+}
+
+header .navbar .collapse ul li {
+    padding: 0 5px;
+    line-height: 24px !important;
+}
+
+header .navbar ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #000000eb;
+    font-weight: 500;
+    font-family: "Plus Jakarta Sans", sans-serif;
+
+}
+
+.offcanvas {
+    height: 100vh;
+}
+
+.offcanvas-title img {
+    width: 120px;
+}
+
+header .offcanvas_btn {
+    background-color: var(--third-color);
+    border: none;
+    padding: 8px 20px;
+    border-radius: 6px;
+    transition: 0.3s ease-in-out;
+}
+
+header .offcanvas_btn i {
+    font-size: 20px;
+}
+
+.offcanvas-header {
+    padding-bottom: 20px;
+    border-bottom: 2px solid #1e75bb9e;
+}
+
+#searchCompanyModal .modal-title,
+.suggestions h4,
+header .offcanvas #menu_title {
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 600;
+}
+.offcanvas-body {
+    flex-grow: 1;
+    padding: 1rem 1rem;
+    overflow-y: auto;
+    align-items: self-start;
+    display: flex
+;
+    flex-direction: column;
+}
+header .offcanvas ul li {
+    padding: 6px 0;
+    line-height: 24px !important;
+}
+
+header .offcanvas ul li a {
+    color: #2b2f32;
+    font-size: 16px;
+    width: fit-content;
+    padding: 0;
+    font-weight: 600;
+}
+
+header .offcanvas ol li a {
+    color: #2b2f32;
+    font-size: 16px;
+    width: fit-content;
+    padding: 0;
+    font-weight: 400;
+}
+
+header .offcanvas .add_list_btn {
+    border-radius: 4px;
+    padding-block: 8px;
+}
+
+.user_dashboard {
+    width: 35px !important;
+    height: 35px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+
+.dropdown-menu.show {
+    display: block !important;
+    position: static !important;
+    z-index: 1000;
+    display: none;
+    min-width: 10rem;
+    margin-top: 10px !important;
+    padding: .1rem 0rem;
+    margin: 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    background-clip: padding-box;
+    border: 0px solid rgba(0, 0, 0, .15);
+    transform: none !important;
+    float: none !important;
+}
+
+#innerDropdown1,
+#innerDropdown2 {
+    font-weight: 500;
+}
+
+.fa-chevron-down {
+    transition: transform 0.3s ease-in-out;
+}
+
+.fa-chevron-down.show {
+    transform: rotate(180deg);
+}
+
+.user_dashboard+ul li {
+    padding: 8px 12px !important;
+}
+
+.mover_dropdown li,
+.suggestions ul li {
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 500;
+    padding: 4px 0;
+}
+
+.user_dashboard+ul li a {
+    padding: 0 !important;
+}
+
+.user_dashboard_menu .user_submenu {
+    position: absolute;
+    background-color: #fff;
+    z-index: 9;
+    left: -30px;
+    border: 1px solid;
+    border-radius: 6px;
+    display: none;
+    overflow: hidden;
+}
+
+.header_form .get_quote,
+.user_dashboard_menu .user_submenu li:hover {
+    background-color: rgb(30 117 187);
+    color: #fff;
+}
+
+.user_dashboard_menu .user_submenu li {
+    padding: 4px 18px !important;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.user_dashboard_menu .user_submenu li:hover a {
+    color: #fff;
+}
+
+.user_dashboard_menu:hover .user_submenu {
+    display: block;
+    animation: 0.4s ease-in-out userFadeInUp;
+}
+
+@keyframes userFadeInUp {
+    0% {
+        transform: translateY(30px);
+        opacity: 0%;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+:is(.header_search_bar, .offcanvas_search_bar) span {
+    background-color: transparent;
+    border: 1px solid rgb(30 117 187);
+    padding: 0 10px 0 0;
+    border-radius: 0 30px 30px 0;
+}
+
+:is(.header_search_bar, .offcanvas_search_bar) span button {
+    background-color: transparent;
+    border: none;
+}
+
+.header_form label {
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 700;
+    color: rgb(30 117 187);
+    font-size: 12px;
+    margin-bottom: 1px;
+}
+
+.header_form .input-group span i,
+.mover_dropdown li,
+.movers_menu .sub_menu li a {
+    color: #2b2f32;
+}
+
+.header_form .input-group input {
+    border-left: none;
+    font-family: "Plus Jakarta Sans", serif;
+}
+
+#searchCompanyModal .modal-body form input:focus,
+.header_form .input-group input:focus {
+    box-shadow: none;
+}
+
+.header_form .input-group input::placeholder {
+    text-transform: capitalize;
+    font-size: 14px;
+    color: rgb(30 117 187);
+}
+
+.header_form .input-group span {
+    background-color: transparent;
+}
+
+.header_form .get_quote {
+    text-align: center;
+    transition: 0.5s;
+    border-radius: 7px;
+    font-weight: 600;
+    border: 2px solid #fff;
+    padding: 6px 30px;
+    font-size: 16px;
+    font-family: "Plus Jakarta Sans", serif;
+    letter-spacing: 1px;
+    margin-top: 6px;
+}
+
+.header_form form .input-group input,
+.header_form form .input-group span {
+    background-color: white;
+    border: none;
+}
+
+/* .header_form form {
+    left: -114px;
+    width: 130%;
+} */
+/* .header_form .form_input_box::after {
+    content: "";
+    background-color: rgb(30 117 187 / 52%);
+    position: absolute;
+    top: 23px;
+    left: -26px;
+    width: 2px;
+    height: 50%;
+} */
+.header_form form .input-group input[type="search"]::-webkit-search-cancel-button {
+    appearance: none;
+}
+
+.header_form form .input-group input {
+    font-family: "Plus Jakarta Sans", serif;
+    height: 42px;
+}
+
+.header_form form .input-group input:focus {
+    box-shadow: none;
+    border: none;
+    background-color: #ececec9e;
+}
+
+.header_form form .input-group input::placeholder {
+    text-transform: capitalize;
+    color: var(--third-color);
+    ffont-family: "Plus Jakarta Sans", serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#headForm {
+    display: none;
+    background: #1e75bb21;
+}
+
+.movers_menu :is(.sub_menu, .resourse_sub_menu) {
+    position: absolute;
+    top: 90%;
+    width: max-content !important;
+    background-color: #fff;
+    border-radius: 5px;
+    display: none !important;
+    z-index: 9;
+    border: 1px solid #00000036;
+    cursor: pointer;
+    padding: 10px 15px !important;
+}
+
+.resources_menu {
+    position: absolute;
+    top: 90%;
+    width: max-content;
+    background-color: #fff !important;
+    border-radius: 4px;
+    display: none !important;
+    z-index: 9;
+    /* box-shadow: rgb(30 117 187 / 30%) 0 6px 12px 0; */
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+    left: -370px;
+    width: 860px !important;
+    display: flex !important;
+}
+
+.resource_menu {
+    display: flex !important;
+    gap: 20px;
+}
+
+.movers_menu .resourse_sub_menu {
+    top: 40px;
+    color: #000;
+}
+
+.movers_menu .resourse_sub_menu li {
+    padding: 5px 20px !important;
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 500;
+    line-height: 24px !important;
+}
+
+.resources_deep_menue p {
+    padding-left: 20px !important;
+    color: #000;
+    font-weight: 700;
+    font-family: "Plus Jakarta Sans", serif;
+    font-size: 18px;
+    margin: 5px 0px !important;
+}
+
+.movers_menu .resources_deep_menue>ul {
+    position: absolute;
+    background-color: #fff;
+    box-shadow: rgb(30 117 187 / 30%) 0 6px 12px 0;
+    right: -283px;
+    top: 17px;
+    display: none;
+    transition: 0.4s linear;
+    border-radius: 4px;
+}
+
+.movers_menu .resources_deep_menue .dropdown-ul .dropdown-li {
+    padding: 2px 15px !important;
+    margin: 4px 0 !important;
+}
+
+.movers_menu .resources_deep_menue:hover>ul {
+    display: block;
+    animation: 0.4s ease-in-out fadeInUp;
+}
+
+.movers_menu :is(.sub_menu) li {
+    padding-block: 6px !important;
+    transition: 0.3s ease-in-out;
+}
+
+.movers_menu .sub_menu li a {
+    font-size: 16px;
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 500;
+    width: 100%;
+    display: block;
+}
+
+.movers_menu .sub_menu li:hover,
+.movers_menu .sub_menu li:hover a {
+    color: rgb(30 117 187);
+    text-decoration: none;
+}
+
+.movers_menu:hover :is(.sub_menu, .resourse_sub_menu) {
+    transform: translateY(0);
+    /* display: flex !important; */
+    display: block !important;
+    animation: 0.4s linear fadeInUp;
+}
+
+.dropdown {
+    padding: 6px 20px;
+}
+
+.mover_dropdown li {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.mover_dropdown .dropdown-menu {
+    border: 0;
+    box-shadow: rgb(30 117 187 / 44%) 0 1px 4px;
+}
+
+.mover_dropdown .dropdown-menu li a {
+    display: block;
+    padding: 0 10px;
+}
+
+.mover_dropdown .dropdown-menu li a:hover {
+    background-color: rgba(30, 116, 187, 0.089);
+}
+
+.company_login_router a i {
+    font-size: 22px;
+}
+
+@keyframes fadeInUp {
+    100% {
+        opacity: 100%;
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    0% {
+        transform: translateY(30px);
+        opacity: 0%;
+    }
+}
+
+#searchCompanyModal .modal-body form {
+    border-block: 2px solid rgb(30 117 187 / 53%);
+}
+
+#searchCompanyModal .modal-body form input {
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+#searchCompanyModal .modal-body form input::placeholder {
+    font-size: 18px;
+}
+
+#searchCompanyModal .modal-body form i {
+    color: rgb(30 117 187);
+    font-size: 18px;
+}
+
+#searchCompanyModal .modal-body form input[type="search"]::-webkit-search-cancel-button {
+    display: none;
+}
+
+@media (min-width: 992px) and (max-width: 1399px) {
+    .header_form form {
+        left: -95px;
+    }
+
+    .header_form form .input-group-text {
+        padding: 0 0.75rem;
+    }
+
+    .header_form .form_input_box::after {
+        left: -20px;
+    }
+
+    .header_form button {
+        padding: 6px 0;
+    }
+
+    .header_form .get_quote {
+        padding: 6px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .header_form form {
+        left: -70px;
+        width: 135%;
+    }
+
+    .header_form .form_input_box::after {
+        left: -9px;
+    }
+
+    .company_logo {
+        max-width: 140px;
+    }
+
+    header .navbar ul li a {
+        padding: 0 !important;
+    }
+
+    .movers_menu .resourse_sub_menu {
+        width: max-content;
+        left: -23rem;
+    }
+
+    .resources_menu {
+        width: 800px !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .sub_top_header {
+        display: block;
+    }
+
+    header .offcanvas_btn {
+        background: 0 0;
+        border: 1px solid #2b2f32;
+        padding: 6px 16px;
+        color: rgb(30 117 187);
+    }
+
+    header .offcanvas_btn:hover {
+        background-color: #2b2f32;
+        color: #fff;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .company_logo {
+        margin-right: 50px;
+        width: 130px;
+    }
+
+    header .offcanvas_btn {
+        padding: 4px 12px;
+    }
+
+    header .offcanvas_btn i {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .company_logo {
+        margin-right: 30px;
+    }
+
+    .mover_dropdown .dropdown-menu li a {
+        font-size: 15px;
+    }
+}
+
+
+/* CSS for rotation */
+.rotated {
+    transform: rotate(180deg);
+    transition: transform 0.3s ease;
+}

@@ -1,0 +1,466 @@
+.services-small-item:hover .services-title,
+.services-small-item:hover p {
+    color: #000
+}
+
+.local_subheading,
+.services-small-item .services-title,
+.services-small-item:hover .services-title,
+h1 {
+    font-family: "Albert Sans", sans-serif;
+    font-weight: 600
+}
+
+*,
+.card .card-body {
+    padding: 0
+}
+
+#movers_state_content ol li,
+.distance_lower_content ol li {
+    padding: 0 0 8px
+}
+
+:root {
+    --paragraph-color: rgb(0 0 0 / 80%)
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box
+}
+
+#movers_type_section {
+    padding-bottom: 70px
+}
+
+h1 {
+    font-size: 60px
+}
+
+.mover_distance_section label.discount,
+label.discount {
+    text-decoration: underline;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center
+}
+
+.offer_service a {
+    color: var(--primary-color)
+}
+
+.service_heading h3 {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 700;
+    font-size: 42px
+}
+
+.services-small-item {
+    display: block;
+    background: #fff;
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, .06);
+    border-radius: 5px;
+    padding: 20px;
+    border: 2px solid #00000038;
+    height: 90%;
+    text-align: center;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    position: relative
+}
+
+.services-small-item:hover .button i {
+    background-image: linear-gradient(135deg, #fff 0, #fff 100%) !important;
+    color: #2b708b !important
+}
+
+.services-small-item:hover {
+    transform: translateY(-15px)
+}
+
+.services-small-item .services-title {
+    text-transform: capitalize;
+    font-size: 28px
+}
+
+.services-small-item p {
+    font-weight: 400;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 14px;
+    color: #2a2f32;
+    letter-spacing: .5px;
+    line-height: 26px;
+    position: relative;
+    z-index: 2;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    margin-bottom: 30px
+}
+
+#type_movers_card {
+    padding-bottom: 30px
+}
+
+#type_movers_card .movers_info p {
+    font-family: 'Plus Jakarta Sans';
+    font-size: 14.7px;
+    color: var(--para-color);
+    letter-spacing: .5px
+}
+
+#type_movers_card h3 {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 700;
+    font-size: 26px
+}
+
+#type_movers_card .card {
+    padding: 20px;
+    box-shadow: rgb(30 117 187 / 44%) 0 1px 4px;
+    border: none;
+    border-radius: 8px;
+    height: 100%
+}
+
+.card .card-header {
+    background-color: transparent;
+    padding: 0;
+    border: none
+}
+
+.card .card-header .search_company_logo {
+    max-width: 150px;
+    height: 100px;
+    position: relative
+}
+
+.card .card-header .search_company_logo img {
+    max-width: 100%;
+    object-fit: contain;
+    height: auto
+}
+
+.search_company_heading {
+    position: relative
+}
+
+.search_company_logo::after {
+    content: "";
+    background-color: rgb(30 117 187 / 32%);
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    right: -10%
+}
+
+.search_company_heading .card-title {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 600;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin: 0;
+    color: var(--secondary-color)
+}
+
+.search_company_heading .total_rating {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 500;
+    color: #2b2f32;
+    font-size: 16px;
+    letter-spacing: .3px
+}
+
+.card .card-body .personal_info li {
+    color: #2b2f32;
+    padding: 4px 0;
+    font-size: 16px
+}
+
+.card .card-body .personal_info li span {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 500;
+    text-decoration: underline
+}
+
+.card .rating_number {
+    color: rgb(30 117 187);
+    font-family: 'Plus Jakarta Sans';
+    font-size: 16px
+}
+
+.card .stars li {
+    padding: 0 6px 0 0
+}
+
+.card .stars li i {
+    color: #ff9800
+}
+
+.card .site {
+    word-break: break-all
+}
+
+#movers_state_content {
+    padding-bottom: 40px
+}
+
+#movers_state_content h3,
+.distance_lower_content h3 {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 600;
+    margin-top: 20px
+}
+
+#movers_state_content ol li,
+#movers_state_content p {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 400;
+    color: var(--paragraph-color);
+    font-size: 14.7px
+}
+
+::marker {
+    color: #2b2f32;
+    font-weight: 600
+}
+
+#movers_state_content ol li .listing_heading,
+.distance_lower_content ol li .listing_heading {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 600;
+    font-size: 18px;
+    white-space: nowrap
+}
+
+#movers_state_content ol li .list_description {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 400;
+    margin: 2px
+}
+
+.distance_upper_content p {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    color: rgb(0 0 0 / 89%);
+    letter-spacing: .3px
+}
+
+.distance_lower_content ol li .list_description,
+.distance_lower_content p {
+    color: var(--paragraph-color);
+    font-size: 16px;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 400
+}
+
+.distance_lower_content p {
+    line-height: 28px
+}
+
+.distance_lower_content ol li .list_description {
+    margin: 2px;
+    line-height: 32px
+}
+
+.verified_img span {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 400;
+    color: rgb(30 117 187);
+    font-size: 15px
+}
+
+.mover_distance_section {
+    padding-block: 3rem
+}
+
+.mover_distance_section .heading p {
+    font-size: 22px;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 400
+}
+
+.mover_distance_section img {
+    width: 55%;
+    object-fit: cover;
+    height: auto
+}
+
+.mover_distance_section .row_modal {
+    background: rgb(30 117 187 / 85%) !important;
+    border-radius: 10px !important;
+    border: 1px solid rgb(30 117 187) !important;
+    padding: .7rem !important;
+    margin-top: 10px !important;
+}
+
+.mover_distance_section .row_modal h2 {
+    font-family: 'Plus Jakarta Sans';
+    color: #fff;
+    font-size: 26px !important;
+    font-weight: 400;
+    letter-spacing: .3px;
+    text-decoration: underline
+}
+
+.mover_distance_section .row_modal small {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 400;
+    font-size: 12px;
+    color: #fff
+}
+
+.mover_distance_section .row_modal label {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 2px;
+    font-size: 14.7px
+}
+
+.mover_distance_section .row_modal input {
+    font-weight: 400;
+    background-color: #fff;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 14.5px
+}
+
+.mover_distance_section .row_modal input:focus {
+    box-shadow: none;
+    background-color: var(--four-color)
+}
+
+.mover_distance_section .row_modal input::placeholder {
+    text-transform: capitalize;
+    color: var(--third-color);
+    font-weight: 400
+}
+
+.mover_distance_section .row_modal .input-group span {
+    background-color: var(--four-color)
+}
+
+.mover_distance_section .row_modal .input-group span i {
+    color: var(--dark-blue);
+    font-size: 16px
+}
+
+.mover_distance_section .row_modal button {
+    text-align: center;
+    transition: .5s;
+    border-radius: 7px;
+    border: 2px solid #fff;
+    padding: 6px 30px;
+    font-size: 16px;
+    font-family: 'Plus Jakarta Sans';
+    letter-spacing: .2px;
+    margin-top: 2px;
+    background-color: #2b2f32;
+    color: #fff
+}
+
+@media screen and (max-width:1024px) {
+    #movers_state_content ol li p {
+        padding-left: 0
+    }
+
+    #movers_state_content ol li .listing {
+        flex-wrap: wrap
+    }
+}
+
+@media screen and (max-width:576px) {
+    h1 {
+        font-size: 44px
+    }
+}
+
+@media (min-width:450px) and (max-width:550px) {
+    .card .card-header .search_company_logo {
+        margin-right: auto
+    }
+}
+
+@media screen and (max-width:450px) {
+    .card .card-header .search_company_logo {
+        margin: auto
+    }
+
+    .card .card-header .search_company_logo::after {
+        content: "";
+        background-color: rgb(30 117 187);
+        width: 100%;
+        height: 1px;
+        position: absolute;
+        bottom: -16%;
+        right: 0
+    }
+
+    .search_company_heading {
+        margin-top: 20px
+    }
+
+    .mover_type_banner h1 {
+        margin-top: -16rem
+    }
+
+    .mover_distance_section .heading p {
+        font-size: 18px
+    }
+}
+
+@media screen and (max-width:400px) {
+    .search_company_heading .card-title {
+        font-size: 20px !important
+    }
+
+    #type_movers_card h3 {
+        font-size: 27px
+    }
+
+    .mover_distance_section .heading p {
+        font-size: 16px
+    }
+}
+
+@media (min-width:390px) and (max-width:393px) {
+    .card .card-header .search_company_logo::after {
+        content: "";
+        background-color: rgb(30 117 187);
+        width: 0%;
+        height: 0;
+        position: absolute;
+        bottom: 0;
+        right: 0
+    }
+
+    .search_company_heading {
+        margin-top: 0;
+        padding-left: 6px !important
+    }
+}
+
+@media screen and (max-width:390px) {
+    .mover_type_banner .mover_type_banner_img {
+        height: 30vh;
+        object-position: center
+    }
+
+    #long_distance_section h1 {
+        font-size: 38px
+    }
+
+    #movers_state_content h3 {
+        font-size: 20px
+    }
+}
+
+@media screen and (max-width:350px) {
+    .card .card-header {
+        flex-wrap: wrap
+    }
+}

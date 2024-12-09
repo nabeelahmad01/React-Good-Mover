@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+
+h1 {
+    font-size: 60px;
+}
+
+#h3-title {
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.data-container {
+    padding: 2rem 10rem;
+}
+
+p {
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #000000d6;
+    line-height: 1.5rem;
+}
+
+.about-banner-info h2 {
+    font-size: 30px;
+}
+
+.about-banner-info img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-banner-info button {
+    background-color: var(--primary-color);
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    padding: 8px 18px;
+    transition: all 0.4s ease-in-out;
+}
+
+.about-banner-info button:hover {
+    background-color: var(--primary-color);
+}
+
+.get_in_touch {
+    background-color: var(--primary-color);
+    border-radius: 4px;
+}
+
+.get_in_touch :is(h5, p) {
+    color: #fff;
+}
+
+.get_in_touch p {
+    font-weight: 300;
+    font-size: 14.7px;
+}
+
+.get_in_touch button {
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 500;
+    background-color: var(--secondary-color);
+    border: 0;
+    border-radius: 4px;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+
+.get_in_touch button:hover {
+    background-color: var(--secondary-color);
+}
+
+@media (max-width: 992px) {
+    .data-container {
+        padding: 15px !important;
+    }
+}
+
+@media (max-width: 425px) {
+    #h3-title {
+        font-size: 26px;
+    }
+
+    h1 {
+        font-size: 42px;
+    }
+
+    .container.p-5 {
+        padding: 10px 10px !important;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+
+    h2,
+    h3,
+    h4 {
+        font-size: 22px !important;
+    }
+
+    .container.p-5 {
+        padding: 10px 10px !important;
+    }
+
+    li,
+    p {
+        font-size: 14px;
+    }
+}
