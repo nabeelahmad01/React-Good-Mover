@@ -12,8 +12,7 @@ export default function Homepage({ blogs, popularBlogs, moverinState }) {
                         <div className="col-lg-5 col-12">
                             <div className="banner_info text-center">
                                 <div className="heading">
-                                    {/* <h1>Choose the Best Movers In Your Area</h1> */}
-                                    <h1>Nabil Ahmad</h1>
+                                    <h1>Choose the Best Movers In Your Area</h1>
                                     <p>Need a hand with your move? We connect you with reliable movers across the USA, making it
                                         easy to find the perfect fit for your unique needs. Just search, compare, and choose the
                                         movers who’ll make your move a breeze!</p>
